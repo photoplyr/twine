@@ -1,0 +1,26 @@
+PODS:
+  - Mockingjay (2.0.0):
+    - Mockingjay/Core (= 2.0.0)
+    - Mockingjay/XCTest (= 2.0.0)
+  - Mockingjay/Core (2.0.0):
+    - URITemplate (~> 2.0)
+  - Mockingjay/XCTest (2.0.0):
+    - Mockingjay/Core
+  - Nimble (6.1.0)
+  - Quick (1.1.0)
+  - URITemplate (2.0.1)
+
+DEPENDENCIES:
+  - Mockingjay
+  - Nimble
+  - Quick
+
+SPEC CHECKSUMS:
+  Mockingjay: 7122a3fc0597aa63438e4cd9b71b7bc8aac05b87
+  Nimble: c53e6903fee94041b90ded74f135820437d8bf59
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  URITemplate: 720b8a56a281494d7c2d31ee33183986eaed2c67
+
+PODFILE CHECKSUM: 60feafd7ad6c9583b1e2aea4b3d5b6061365ef9d
+
+COCOAPODS: 1.2.0

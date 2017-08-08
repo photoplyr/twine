@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D383E34BFA3AB573B96A429 /* Pods_Twine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5B656672BC3465D75D0052 /* Pods_Twine.framework */; };
+		4A80C86A1F32BE2700430369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A80C8691F32BE2700430369 /* AppDelegate.swift */; };
+		4A80C86F1F32BE2700430369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A80C86D1F32BE2700430369 /* Main.storyboard */; };
+		4A80C8711F32BE2700430369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A80C8701F32BE2700430369 /* Assets.xcassets */; };
+		4A80C8741F32BE2700430369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A80C8721F32BE2700430369 /* LaunchScreen.storyboard */; };
+		4A80C87C1F32C0A200430369 /* EmailClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A80C87B1F32C0A200430369 /* EmailClientViewController.swift */; };
+		4A80C87E1F32C20E00430369 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A80C87D1F32C20E00430369 /* WebServices.swift */; };
+		4A80C8811F32D12800430369 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A80C8801F32D12700430369 /* UIColor.swift */; };
+		4A80C8831F32D20200430369 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A80C8821F32D20200430369 /* ColorConstants.swift */; };
+		4A80C8871F32D3A900430369 /* UnreadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A80C8861F32D3A900430369 /* UnreadTableViewCell.swift */; };
+		4A80C8891F32D3B000430369 /* ReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A80C8881F32D3B000430369 /* ReadTableViewCell.swift */; };
+		4AECAAB71F33761400CA615C /* UnreadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AECAAB61F33761400CA615C /* UnreadCollectionViewCell.swift */; };
+		4AECAABB1F33E5A400CA615C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AECAABA1F33E5A400CA615C /* Dictionary.swift */; };
+		4AECAACD1F3903B200CA615C /* GetEmail.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AECAACC1F3903B200CA615C /* GetEmail.json */; };
+		4AECAAE91F3937EB00CA615C /* WebServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AECAAE81F3937EB00CA615C /* WebServiceTest.swift */; };
+		679E1396C1C03B5F2761B3F1 /* Pods_TwineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37718ADE702EB54EC1AF7CB5 /* Pods_TwineTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AECAAC51F3889E100CA615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A80C85E1F32BE2700430369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A80C8651F32BE2700430369;
+			remoteInfo = Twine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0183286BC309ECA78CD8B3C8 /* Pods-TwineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwineTests/Pods-TwineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		309A5F7F1AFBA2F269C5ACB6 /* Pods-Twine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twine/Pods-Twine.debug.xcconfig"; sourceTree = "<group>"; };
+		37718ADE702EB54EC1AF7CB5 /* Pods_TwineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A80C8661F32BE2700430369 /* Twine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A80C8691F32BE2700430369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A80C86E1F32BE2700430369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A80C8701F32BE2700430369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A80C8731F32BE2700430369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A80C8751F32BE2700430369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A80C87B1F32C0A200430369 /* EmailClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmailClientViewController.swift; path = ../EmailClientViewController.swift; sourceTree = "<group>"; };
+		4A80C87D1F32C20E00430369 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		4A80C8801F32D12700430369 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		4A80C8821F32D20200430369 /* ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		4A80C8861F32D3A900430369 /* UnreadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnreadTableViewCell.swift; sourceTree = "<group>"; };
+		4A80C8881F32D3B000430369 /* ReadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadTableViewCell.swift; sourceTree = "<group>"; };
+		4AECAAB61F33761400CA615C /* UnreadCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnreadCollectionViewCell.swift; sourceTree = "<group>"; };
+		4AECAABA1F33E5A400CA615C /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		4AECAAC01F3889E000CA615C /* TwineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AECAAC41F3889E100CA615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AECAACC1F3903B200CA615C /* GetEmail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetEmail.json; sourceTree = "<group>"; };
+		4AECAAE81F3937EB00CA615C /* WebServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceTest.swift; sourceTree = "<group>"; };
+		6519876E7F1BBD0D3EF9ED97 /* Pods-TwineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwineTests/Pods-TwineTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD5B656672BC3465D75D0052 /* Pods_Twine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AAB3D1213888BDA0013981 /* Pods-Twine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twine/Pods-Twine.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A80C8631F32BE2700430369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D383E34BFA3AB573B96A429 /* Pods_Twine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AECAABD1F3889E000CA615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679E1396C1C03B5F2761B3F1 /* Pods_TwineTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E7762D609604045B390A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B656672BC3465D75D0052 /* Pods_Twine.framework */,
+				37718ADE702EB54EC1AF7CB5 /* Pods_TwineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A80C85D1F32BE2700430369 = {
+			isa = PBXGroup;
+			children = (
+				4A80C8681F32BE2700430369 /* Twine */,
+				4AECAAC11F3889E100CA615C /* TwineTests */,
+				4A80C8671F32BE2700430369 /* Products */,
+				F5532643CCC1D2EA97E9A5FD /* Pods */,
+				03E7762D609604045B390A97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A80C8671F32BE2700430369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A80C8661F32BE2700430369 /* Twine.app */,
+				4AECAAC01F3889E000CA615C /* TwineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A80C8681F32BE2700430369 /* Twine */ = {
+			isa = PBXGroup;
+			children = (
+				4A80C8851F32D30700430369 /* Service */,
+				4A80C8841F32D2F400430369 /* Constants */,
+				4A80C87F1F32D11A00430369 /* Extension */,
+				4A80C88A1F32D3B600430369 /* EmailClinet */,
+				4A80C8691F32BE2700430369 /* AppDelegate.swift */,
+				4A80C86D1F32BE2700430369 /* Main.storyboard */,
+				4A80C8701F32BE2700430369 /* Assets.xcassets */,
+				4A80C8721F32BE2700430369 /* LaunchScreen.storyboard */,
+				4A80C8751F32BE2700430369 /* Info.plist */,
+			);
+			path = Twine;
+			sourceTree = "<group>";
+		};
+		4A80C87F1F32D11A00430369 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A80C8801F32D12700430369 /* UIColor.swift */,
+				4AECAABA1F33E5A400CA615C /* Dictionary.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		4A80C8841F32D2F400430369 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4A80C8821F32D20200430369 /* ColorConstants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		4A80C8851F32D30700430369 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4A80C87D1F32C20E00430369 /* WebServices.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		4A80C88A1F32D3B600430369 /* EmailClinet */ = {
+			isa = PBXGroup;
+			children = (
+				4A80C87B1F32C0A200430369 /* EmailClientViewController.swift */,
+				4A80C8861F32D3A900430369 /* UnreadTableViewCell.swift */,
+				4AECAAB61F33761400CA615C /* UnreadCollectionViewCell.swift */,
+				4A80C8881F32D3B000430369 /* ReadTableViewCell.swift */,
+			);
+			name = EmailClinet;
+			sourceTree = "<group>";
+		};
+		4AECAAC11F3889E100CA615C /* TwineTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AECAACC1F3903B200CA615C /* GetEmail.json */,
+				4AECAAC41F3889E100CA615C /* Info.plist */,
+				4AECAAE81F3937EB00CA615C /* WebServiceTest.swift */,
+			);
+			path = TwineTests;
+			sourceTree = "<group>";
+		};
+		F5532643CCC1D2EA97E9A5FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				309A5F7F1AFBA2F269C5ACB6 /* Pods-Twine.debug.xcconfig */,
+				E8AAB3D1213888BDA0013981 /* Pods-Twine.release.xcconfig */,
+				0183286BC309ECA78CD8B3C8 /* Pods-TwineTests.debug.xcconfig */,
+				6519876E7F1BBD0D3EF9ED97 /* Pods-TwineTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A80C8651F32BE2700430369 /* Twine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A80C8781F32BE2700430369 /* Build configuration list for PBXNativeTarget "Twine" */;
+			buildPhases = (
+				6CA1830A7823441BA1B3AFEF /* [CP] Check Pods Manifest.lock */,
+				4A80C8621F32BE2700430369 /* Sources */,
+				4A80C8631F32BE2700430369 /* Frameworks */,
+				4A80C8641F32BE2700430369 /* Resources */,
+				EFEA8B30A769DC47CB4993DB /* [CP] Embed Pods Frameworks */,
+				0FF7E9F3F76C77A27281E63A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twine;
+			productName = Twine;
+			productReference = 4A80C8661F32BE2700430369 /* Twine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AECAABF1F3889E000CA615C /* TwineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AECAAC71F3889E100CA615C /* Build configuration list for PBXNativeTarget "TwineTests" */;
+			buildPhases = (
+				879830ED380515F357752633 /* [CP] Check Pods Manifest.lock */,
+				4AECAABC1F3889E000CA615C /* Sources */,
+				4AECAABD1F3889E000CA615C /* Frameworks */,
+				4AECAABE1F3889E000CA615C /* Resources */,
+				73071BDD29225868F68EE9FD /* [CP] Embed Pods Frameworks */,
+				7412C4218EC52AAE61ABAA50 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AECAAC61F3889E100CA615C /* PBXTargetDependency */,
+			);
+			name = TwineTests;
+			productName = TwineTests;
+			productReference = 4AECAAC01F3889E000CA615C /* TwineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A80C85E1F32BE2700430369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gym Farm LLC";
+				TargetAttributes = {
+					4A80C8651F32BE2700430369 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B6TAM5446D;
+						ProvisioningStyle = Automatic;
+					};
+					4AECAABF1F3889E000CA615C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B6TAM5446D;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A80C8651F32BE2700430369;
+					};
+				};
+			};
+			buildConfigurationList = 4A80C8611F32BE2700430369 /* Build configuration list for PBXProject "Twine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A80C85D1F32BE2700430369;
+			productRefGroup = 4A80C8671F32BE2700430369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A80C8651F32BE2700430369 /* Twine */,
+				4AECAABF1F3889E000CA615C /* TwineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A80C8641F32BE2700430369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A80C8741F32BE2700430369 /* LaunchScreen.storyboard in Resources */,
+				4A80C8711F32BE2700430369 /* Assets.xcassets in Resources */,
+				4A80C86F1F32BE2700430369 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AECAABE1F3889E000CA615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AECAACD1F3903B200CA615C /* GetEmail.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF7E9F3F76C77A27281E63A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twine/Pods-Twine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA1830A7823441BA1B3AFEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73071BDD29225868F68EE9FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwineTests/Pods-TwineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7412C4218EC52AAE61ABAA50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwineTests/Pods-TwineTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		879830ED380515F357752633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFEA8B30A769DC47CB4993DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twine/Pods-Twine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A80C8621F32BE2700430369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A80C87C1F32C0A200430369 /* EmailClientViewController.swift in Sources */,
+				4A80C8811F32D12800430369 /* UIColor.swift in Sources */,
+				4A80C8871F32D3A900430369 /* UnreadTableViewCell.swift in Sources */,
+				4A80C86A1F32BE2700430369 /* AppDelegate.swift in Sources */,
+				4A80C8891F32D3B000430369 /* ReadTableViewCell.swift in Sources */,
+				4AECAABB1F33E5A400CA615C /* Dictionary.swift in Sources */,
+				4A80C8831F32D20200430369 /* ColorConstants.swift in Sources */,
+				4A80C87E1F32C20E00430369 /* WebServices.swift in Sources */,
+				4AECAAB71F33761400CA615C /* UnreadCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AECAABC1F3889E000CA615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AECAAE91F3937EB00CA615C /* WebServiceTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AECAAC61F3889E100CA615C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A80C8651F32BE2700430369 /* Twine */;
+			targetProxy = 4AECAAC51F3889E100CA615C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A80C86D1F32BE2700430369 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A80C86E1F32BE2700430369 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A80C8721F32BE2700430369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A80C8731F32BE2700430369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A80C8761F32BE2700430369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A80C8771F32BE2700430369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A80C8791F32BE2700430369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309A5F7F1AFBA2F269C5ACB6 /* Pods-Twine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6TAM5446D;
+				INFOPLIST_FILE = Twine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymfarm.twine.Twine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4A80C87A1F32BE2700430369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AAB3D1213888BDA0013981 /* Pods-Twine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6TAM5446D;
+				INFOPLIST_FILE = Twine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymfarm.twine.Twine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4AECAAC81F3889E100CA615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0183286BC309ECA78CD8B3C8 /* Pods-TwineTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B6TAM5446D;
+				INFOPLIST_FILE = TwineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymfarm.twine.TwineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twine.app/Twine";
+			};
+			name = Debug;
+		};
+		4AECAAC91F3889E100CA615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6519876E7F1BBD0D3EF9ED97 /* Pods-TwineTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B6TAM5446D;
+				INFOPLIST_FILE = TwineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymfarm.twine.TwineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twine.app/Twine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A80C8611F32BE2700430369 /* Build configuration list for PBXProject "Twine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A80C8761F32BE2700430369 /* Debug */,
+				4A80C8771F32BE2700430369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A80C8781F32BE2700430369 /* Build configuration list for PBXNativeTarget "Twine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A80C8791F32BE2700430369 /* Debug */,
+				4A80C87A1F32BE2700430369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AECAAC71F3889E100CA615C /* Build configuration list for PBXNativeTarget "TwineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AECAAC81F3889E100CA615C /* Debug */,
+				4AECAAC91F3889E100CA615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A80C85E1F32BE2700430369 /* Project object */;
+}
